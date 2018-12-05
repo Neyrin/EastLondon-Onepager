@@ -1,0 +1,20 @@
+body {
+   width: 100vw;
+   height: 100vh;
+   margin:0;
+   color: #F9EDE5;
+}
+
+h1 {
+   font-family: 'Kumar One', sans-serif;
+   font-size: 4em;
+}
+
+h3 {
+   font-family: 'Kumar One Outline', sans-serif;
+   font-size: 3em;
+}
+
+p {
+   font-family: 'Chakra Petch', monospace;
+}
