@@ -3,7 +3,7 @@ body {
   height: 800vh;
   margin: 0;
   color: #f9ede5;
-  background-color: white;
+  background-color: black;
   display: grid;
   grid-template-rows: 1fr 2fr 3fr 1fr 0.6fr 0.4fr;
   grid-template-columns: 1fr;
@@ -41,6 +41,7 @@ ol {
 .page-divider > h2 {
   font-family: "Kumar One Outline", sans-serif;
   text-align: center;
+  font-size: 2em;
 }
 h4 {
   font-family: "Kumar One", sans-serif;
@@ -82,7 +83,6 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 1fr);
-  background-color: black;
 }
 .ingredients {
   grid-row: 2 / 4;
@@ -143,7 +143,6 @@ h4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
-  background-color: black;
 }
 .recipies > .gin-tonic {
   grid-row: 1 / 2;
@@ -188,17 +187,14 @@ h4 {
 .about-us {
   height: 100%;
   grid-row: 4 / 5;
-  background-color: black;
 }
 
 .newsletter {
   height: 60%;
   grid-row: 5 / 6;
-  background-color: black;
 }
 
 footer {
   height: 40%;
   grid-row: 6 / 7;
-  background-color: black;
 }
