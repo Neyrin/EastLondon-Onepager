@@ -5,8 +5,13 @@ body {
   color: #f9ede5;
   background-color: black;
   display: grid;
-  grid-template-rows: 1fr 2fr 3fr 1fr 0.6fr 0.4fr;
-  grid-template-columns: 1fr;
+}
+.main-grid {
+  width: 100vw;
+  height: 800vh;
+  display: grid;
+  grid-template-rows: 100vh 200vh 300vh 100vh 60vh 40vh;
+  grid-template-columns: 100vw;
   grid-gap: 1px;
 }
 
@@ -154,6 +159,7 @@ h4 {
   grid-column: 1 / 2;
 }
 .gin-tonic > .image-container {
+  height: 100vh;
   background-size: cover;
   grid-column: 2 / 3;
 }
@@ -167,6 +173,7 @@ h4 {
   grid-column: 2 / 3;
 }
 .bramble > .image-container {
+  height: 100vh;
   background-size: cover;
   grid-column: 1 / 2;
 }
@@ -180,6 +187,8 @@ h4 {
   grid-column: 1 / 2;
 }
 .watermelon-fizz > .image-container {
+  height: 100vh;
+  background-image: url("../images/watermelon-fizz.jpg");
   background-size: cover;
   grid-column: 2 / 3;
 }
