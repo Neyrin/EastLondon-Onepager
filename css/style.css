@@ -5,6 +5,9 @@ body {
   color: #f9ede5;
   background-color: black;
   display: grid;
+  background-image: url("../images/b4769e3a52766f30e86b375391c84441.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   grid-template-rows: 1fr 2fr 3fr 1fr 0.6fr 0.4fr;
   grid-template-columns: 1fr;
   grid-gap: 1px;
@@ -91,7 +94,7 @@ h4 {
   grid-template-columns: repeat(2, 1fr);
 }
 .ingredients > .image-container {
-  background-image: url("image/ingredients.png");
+  background-image: url("../images/ingredients.png");
   background-size: cover;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
@@ -107,7 +110,7 @@ h4 {
   grid-template-columns: repeat(2, 1fr);
 }
 .destillation > .image-container {
-  background-image: url("image/destillation.jpg");
+  background-image: url("../images/destillation.jpg");
   background-size: cover;
   grid-row: 1 / 2;
   grid-column: 2 / 3;
@@ -123,7 +126,7 @@ h4 {
   grid-template-columns: repeat(2, 1fr);
 }
 .packaging > .image-container {
-  background-image: url("image/packaging.jpg");
+  background-image: url("../images/packaging.jpg");
   background-size: cover;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
