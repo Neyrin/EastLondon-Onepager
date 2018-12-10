@@ -1,0 +1,52 @@
+.recipies {
+    height: 100%;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .recipies > .gin-tonic {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .gin-tonic > .text-container {
+    grid-column: 1 / 2;
+  }
+  .gin-tonic > .image-container {
+    background-size: cover;
+    grid-column: 2 / 3;
+  }
+  .recipies > .bramble {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .bramble > .text-container {
+    grid-column: 2 / 3;
+  }
+  .bramble > .image-container {
+    background-size: cover;
+    grid-column: 1 / 2;
+  }
+  .recipies > .watermelon-fizz {
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .watermelon-fizz > .text-container {
+    grid-column: 1 / 2;
+  }
+  .watermelon-fizz > .image-container {
+    background-size: cover;
+    grid-column: 2 / 3;
+  }
+  .page-divider.recipies {
+    grid-row: 8 / 9;
+    grid-column: 1 / 3;
+  }
+  
+  
