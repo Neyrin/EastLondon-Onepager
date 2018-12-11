@@ -1,5 +1,5 @@
 .recipies {
-    height: 100%;
+    height: 170%;
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: 1fr;
@@ -17,6 +17,7 @@
   .gin-tonic > .image-container {
     background-image: url(../images/gin-tonic.jpg);
     background-size: cover;
+    background-position-y: center;
     grid-column: 2 / 3;
   }
   .recipies > .bramble {
@@ -31,6 +32,7 @@
   .bramble > .image-container {
     background-image: url(../images/bramble.jpeg);
     background-size: cover;
+    background-position-y: center;
     grid-column: 1 / 2;
   }
   .recipies > .watermelon-fizz {
@@ -45,6 +47,7 @@
   .watermelon-fizz > .image-container {
     background-image: url(../images/watermelon-fizz.jpg);
     background-size: cover;
+    background-position-y: center;
     grid-column: 2 / 3;
   }
   .page-divider.recipies {
