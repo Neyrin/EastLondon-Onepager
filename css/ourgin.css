@@ -55,5 +55,18 @@
   }
 
   @media screen and (max-width: 768px) {
-
+      .about-our-gin {
+          display: flex;
+          flex-direction: row;
+      }
+/*       .ingredients {
+        display: flex;
+        flex-direction: column;
+      }
+      .ingredients > .image-container {
+        background-image: url("../images/ingredients.png");
+        background-size: cover;
+      }
+      .ingredients > .text-container {
+      } */
   }
