@@ -15,6 +15,7 @@
     grid-column: 1 / 2;
   }
   .gin-tonic > .image-container {
+    background-image: url(../images/gin-tonic.jpg);
     background-size: cover;
     grid-column: 2 / 3;
   }
@@ -24,10 +25,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
   }
-  .bramble > .text-container {
+  .bramble > .text-container { 
     grid-column: 2 / 3;
   }
   .bramble > .image-container {
+    background-image: url(../images/bramble.jpeg);
     background-size: cover;
     grid-column: 1 / 2;
   }
@@ -41,6 +43,7 @@
     grid-column: 1 / 2;
   }
   .watermelon-fizz > .image-container {
+    background-image: url(../images/watermelon-fizz.jpg);
     background-size: cover;
     grid-column: 2 / 3;
   }
@@ -49,4 +52,29 @@
     grid-column: 1 / 3;
   }
   
+@media screen and (max-width: 768px) {
+  .gin-tonic > .text-container {
+    background-image: url(../images/gin-tonic.jpg);;
+    grid-column: 1 / 3;
+  }
+  .gin-tonic > .image-container {
+    display: none;
+  }
+  .bramble > .text-container { 
+    background-image: url(../images/bramble.jpeg);
+    background-size: cover;
+    grid-column: 1 / 3;
+  }
+  .bramble > .image-container {
+  display: none;
+  }
+  .watermelon-fizz > .text-container {
+    background-image: url(../images/watermelon-fizz.jpg);
+    background-size: cover;
+    grid-column: 1 / 3;
+  }
+  .watermelon-fizz > .image-container {
+  display: none;
+  }
+}
   
