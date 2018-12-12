@@ -21,20 +21,20 @@
   height: 200px;
 }
 
-.destillary {
-  background-image: url(../images/Outside.jpg);
+.destillery {
+  background-image: url("../images/Outside.jpg");
   background-size: cover;
   background-position-y: center;
 }
 
 .building {
-  background-image: url(../images/architecture-retro.jpg);
+  background-image: url("../images/architecture-retro.jpg");
   background-size: cover;
   background-position-y: center;
 }
 
 .storage {
-  background-image: url(../images/04\barrels.jpg);
+  background-image: url("../images/barrels.jpg");
   background-size: cover;
   background-position-y: center;
 }
