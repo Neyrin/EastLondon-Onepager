@@ -64,7 +64,6 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/small-background.jpg");
   background-size: cover;
   padding: 20px;
 }
