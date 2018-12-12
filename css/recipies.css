@@ -5,6 +5,12 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
+.recipies > .content-block > .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 .recipies > .gin-tonic {
   height: 100vh;
   grid-row: 1 / 2;
