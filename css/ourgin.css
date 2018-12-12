@@ -11,11 +11,12 @@
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
 }
-.ingredients > .image-container {
+.ingredients > .filter > .image-container {
   background-image: url("../images/ingredients.png");
   background-size: cover;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
+  opacity: 0.7;
 }
 .ingredients > .text-container {
   background-image: none;
@@ -28,7 +29,7 @@
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
 }
-.destillation > .image-container {
+.destillation > .filter > .image-container {
   background-image: url("../images/destillation.jpg");
   background-size: cover;
   grid-row: 1 / 2;
@@ -45,7 +46,7 @@
   grid-template-rows: 1fr;
   grid-template-columns: repeat(2, 1fr);
 }
-.packaging > .image-container {
+.packaging > .filter > .image-container {
   background-image: url("../images/packaging.jpg");
   background-size: cover;
   grid-row: 1 / 2;
