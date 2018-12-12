@@ -1,10 +1,9 @@
-
 .about-us {
-    height: 100%;
-    grid-row: 4 / 5;
-    display: flex;
-    flex-direction: column;
-  }
+  height: 100%;
+  grid-row: 4 / 5;
+  display: flex;
+  flex-direction: column;
+}
 
 .about-us > .content-block {
   display: flex;
@@ -23,25 +22,21 @@
 }
 
 .destillary {
-  background-image: url(../images/Gin-distilleries.-Bombay-Sapphire.-The-River-Test-from-the-top-bridge-620.jpg);
+  background-image: url(../images/Outside.jpg);
   background-size: cover;
   background-position-y: center;
-  
 }
 
 .building {
   background-image: url(../images/architecture-retro.jpg);
   background-size: cover;
   background-position-y: center;
-  
 }
 
 .storage {
-  background-image: url(../images/04\ _n1a2025_newcrop.jpg);
+  background-image: url(../images/04\barrels.jpg);
   background-size: cover;
   background-position-y: center;
-
-
 }
 @media screen and (max-width: 768px) {
   .image-wrapper > .image-container {
@@ -49,7 +44,7 @@
     height: 200px;
   }
 
-  .destillary, 
+  .destillary,
   .building {
     display: none;
   }
