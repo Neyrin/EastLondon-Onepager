@@ -1,5 +1,5 @@
 .recipies {
-  height: 100%;
+  /* height: 100%; */
   grid-row: 3 / 4;
   display: grid;
   grid-template-columns: 1fr;
@@ -23,7 +23,7 @@
   grid-column: 1 / 2;
 }
 .gin-tonic > .filter > .image-container {
-  background-image: url(../images/gin-tonic.jpg);
+  background-image: url("../images/gin-tonic.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 2 / 3;
@@ -41,7 +41,7 @@
   grid-column: 2 / 3;
 }
 .bramble > .filter > .image-container {
-  background-image: url(../images/bramble.jpeg);
+  background-image: url("../images/bramble.jpeg");
   background-size: cover;
   background-position: center;
   grid-column: 1 / 2;
@@ -58,26 +58,22 @@
   grid-column: 1 / 2;
 }
 .watermelon-fizz > .filter > .image-container {
-  background-image: url(../images/watermelon-fizz.jpg);
+  background-image: url("../images/watermelon-fizz.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 2 / 3;
 }
-.page-divider.recipies {
-  grid-row: 8 / 9;
-  grid-column: 1 / 3;
-}
 
 @media screen and (max-width: 768px) {
   .gin-tonic > .text-container {
-    background-image: url(../images/gin-tonic.jpg);
+    background-image: url("../images/gin-tonic.jpg");
     grid-column: 1 / 3;
   }
   .gin-tonic > .image-container {
     display: none;
   }
   .bramble > .text-container {
-    background-image: url(../images/bramble.jpeg);
+    background-image: url("../images/bramble.jpeg");
     background-size: cover;
     grid-column: 1 / 3;
   }
@@ -85,7 +81,7 @@
     display: none;
   }
   .watermelon-fizz > .text-container {
-    background-image: url(../images/watermelon-fizz.jpg);
+    background-image: url("../images/watermelon-fizz.jpg");
     background-size: cover;
     grid-column: 1 / 3;
   }
