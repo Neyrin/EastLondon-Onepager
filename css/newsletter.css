@@ -12,3 +12,28 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+.spam {
+  text-align: center;
+}
+
+form > button {
+  font-family: "Chakra Petch", monospace;
+  color: #000000;
+  background-color: #f9ede5;
+  width: 132px;
+  height: 36px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+form > input {
+  font-family: "Chakra Petch", monospace;
+  background: none;
+  border-radius: 5px;
+  border: 1px #f9ede5 solid;
+  width: 265px;
+  height: 29px;
+  text-align: center;
+  color: #f9ede5;
+}
