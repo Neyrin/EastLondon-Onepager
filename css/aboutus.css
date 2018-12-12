@@ -16,8 +16,13 @@
   justify-content: space-around;
 }
 
-.image-wrapper > .image-container {
+.image-wrapper > .filter {
   width: 28%;
+  height: 200px;
+}
+
+.image-wrapper > .filter > .image-container {
+  width: 100%;
   height: 200px;
 }
 

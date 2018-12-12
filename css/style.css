@@ -73,7 +73,16 @@ h4 {
   margin: 10px;
 }
 .image-container {
-  background-color: blanchedalmond;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.8;
+}
+.filter {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  z-index: 1;
 }
 
 footer {
