@@ -4,18 +4,15 @@ body {
   margin: 0;
   color: #f9ede5;
   background-color: black;
+  display: grid;
   background-image: url("../images/big-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-.EVERYTHING {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  display: grid;
   grid-template-rows: 1fr 2fr 3fr 1fr 0.6fr 0.4fr;
   grid-template-columns: 1fr;
+  grid-gap: 1px;
 }
+
 h1 {
   font-family: "Kumar One", sans-serif;
   font-size: 4em;
@@ -26,6 +23,13 @@ h3 {
   font-size: 3em;
 }
 
+h4 {
+  font-family: "Kumar One", sans-serif;
+}
+
+h5 {
+  font-family: "Kumar One", sans-serif;
+}
 p {
   font-family: "Chakra Petch", monospace;
 }
@@ -49,12 +53,15 @@ ol {
   text-align: center;
   font-size: 2em;
 }
-h4 {
-  font-family: "Kumar One", sans-serif;
-}
 .text-container > h2 {
   font-family: "Kumar One Outline", sans-serif;
   font-size: 2.5em;
+}
+.recipies > .content-block > .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 .text-container {
   display: flex;
@@ -71,6 +78,9 @@ h4 {
 .text-container > p {
   width: 80%;
   margin: 10px;
+}
+.page-divider {
+  grid-row: 1 / 2;
 }
 .image-container {
   background-color: blanchedalmond;
