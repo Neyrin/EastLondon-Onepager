@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.badges {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  
+}
+
+.socbadge {
+    width: 50px;
+}
